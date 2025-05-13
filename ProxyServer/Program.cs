@@ -14,7 +14,7 @@ namespace ProxyServer
         // Флаги и настройки сервера
         public static bool IsRunning = true;
         public const int BUFFER = 8192;
-        public static IPAddress ListenIp = IPAddress.Parse("127.0.0.2"); // Слушаем на 127.0.0.1
+        public static IPAddress ListenIp = IPAddress.Parse("127.0.0.2"); // Слушаем на 127.0.0.2
         public const int Port = 8888;
 
         static void Main(string[] args)
